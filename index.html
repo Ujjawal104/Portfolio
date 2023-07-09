@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">UJJAWAL</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#start" onclick="select()">START</a></li>
+                    <li><a href="#aboutme" onclick="select()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li>
+                    <li><a href="#contact" onclick="select()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- section start -->
+    <section id="start" class="start">
+        <div class="content-banner">
+            <div class="container-img">
+                <img src="images/touse.jpg" alt="">
+            </div>
+            <h1>UJJAWAL CHHAJER</h1>
+            <h2>Software Engineer - Web Developer</h2>
+            <div class="nets">
+                <a href="https://twitter.com/ujjawal2108?t=nIuckxnJ1RBCbh0az7i55Q&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/ujjawal-chhajer-73611422b" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://instagram.com/ujjxwal_87?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- section SOBRE MI -->
+    <section id="aboutme" class="aboutme">
+        <div class="content-section">
+            <h2>About Me</h2>
+            <p><span>Hi, I'm Ujjawal Chhajer.</span> third-year student at IIT Guwahati,pursuing Btech in Electronics and Electrical Engineering and specializing in web development. Proficient in HTML, CSS, JavaScript, and frameworks like React , I have completed multiple projects showcasing my expertise in creating responsive and user-friendly websites. Actively seeking knowledge and internship opportunities, I participated in webinars and workshops to stay updated with the latest trends. With a focus on using technology to solve real-world problems and enhance user experiences, I am eager to explore web development internships and contribute to the digital landscape.</p>
+
+            <div class="fila">
+                <!-- Personal information -->
+                <div class="col">
+                    <h3>Personal information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            21-08-2003
+                        </li>
+                        <li>
+                            <strong>telephone</strong>
+                            7043458950
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ujjawalchhajer.38@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            ujjawalchhajer.in
+                        </li>
+                        <!-- <li>
+                            <strong>Address</strong>
+                            104 , Chandanvan Appartment, bhatar , surat
+                        </li> -->
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Interests -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="container-Interests">
+                        <div class="interest">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-basketball"></i>
+                            <span>BASKETBALL</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- section SKILLS -->
+    <section class="skills" id="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progress">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="content-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col left">
+                    <h3>Education</h3>
+                    <div class="item left">
+                        <h4>Secondary Education</h4>
+                        <span class="head">Agarwal Vidya Vihar</span>
+                        <span class="date">2018-2019</span>
+                        <p>Percentage: 93% </p><br>
+                        <p>Part of Super-40 Batch in my Secondary Education that was a specialize program for IIT-JEE prepration</p>
+                        <div class="Connection">
+                            <div class="circled"></div>
+                        </div>
+                    </div>
+                    <div class="item left">
+                        <h4>Senior Secondary Education</h4>
+                        <span class="head">Bhagwan Mahavir International School</span>
+                        <span class="date">2020 - 2021</span>
+                        <p>Percentage: 82% </p><br>
+                        <p>Major : Science (Maths , Physics , chemistry)</p>
+                        <div class="Connection">
+                            <div class="circled"></div>
+                        </div>
+                    </div>
+                    <div class="item left">
+                        <h4>College</h4>
+                        <span class="head">IIT Guwahati</span>
+                        <span class="date">2021 - present</span>
+                        <p>Aggregate : 7.99 CGPA </p><br>
+                        <p>Degree : Btech</p>
+                        <p>Current Semester : 5th</p>
+                        <p>Major : Electronics And Electrical</p>
+                        <p>Courses : DSA, Probability and Random Process, Linear Algebra, HTML, CSS, JAVASCRIPT</p>
+                        <p>P.O.R : Hostel's Associate General Secretory</p>
+                        <div class="Connection">
+                            <div class="circled"></div>
+                        </div>
+                    </div>
+                    <h3>Achievement</h3>
+                    <div class="item left">
+                        <h4>Joint Entrance Exam</h4>
+                        <span class="head">IIT Guwahati</span>
+                        <span class="date">2021 - present</span><br>
+                        <p>JEE Mains : ALL INDIA RANK 1386</p>
+                        <p>JEE Advance : ALL INDIA RANK 2860</p><br>
+                        <div class="Connection">
+                            <div class="circled"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col right">
+                    <h3 style="padding-left: 20px;">Experience And Extra Curricular</h3>
+                    <div class="item local">
+                        <h4>Associate General Secretory</h4>
+                        <span class="head">Brahmaputra Hostel</span>
+                        <span class="date">2023 - present</span>
+                        <p>Currently, I hold the esteemed position of Associate General Secretary for Brahmaputra Hostel, the largest among the 12 hostels on campus. In this multifaceted role, I oversee sports, cultural, technical, and welfare aspects for the hostel's residents. Through my diligent efforts, I strive to enhance the overall experience of the hostel boarders and ensure their well- being.</p>
+                        <div class="conectord">
+                            <div class="circles"></div>
+                        </div>
+                    </div>
+                    <div class="item local">
+                        <h4>Senior Executive</h4>
+                        <span class="head">Welfare Board</span>
+                        <span class="date">2022-2023</span>
+                        <p>During the 2nd semester, I held the position of Executive in the Growth & Strategy Team of the Welfare Board. As part of this role, I actively contributed to organizing major events such as Diwali and Halloween. This experience allowed me to enhance my event management skills and fostered my ability to effectively collaborate with diverse groups of people</p>
+                        <div class="conectord">
+                            <div class="circles"></div>
+                        </div>
+                    </div>
+                    <div class="item local">
+                        <h4>Marketing & Infra Head</h4>
+                        <span class="head">Prayatana-Welfare Fest</span>
+                        <span class="date">2022 - 2023</span>
+                        <p>In my most recent semester, I assumed the responsibilities of Marketing and Infra Head for the highly anticipated annual social welfare fest at IITG, known as PRAYATNA. My involvement in this capacity enabled me to refine my communication skills as I played a pivotal role in promoting the event and coordinating the necessary infrastructure. The successful execution of PRAYATNA further bolstered my confidence in managing large-scale projects.</p>
+                        <div class="conectord">
+                            <div class="circles"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section contact -->
+    <section id="contact" class="contact">
+        <div class="content-section">
+            <h2 style="margin-right: 85px;">contact</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Your name">
+                    <input type="text" placeholder="Phone number">
+                    <input type="text" placeholder="mail address">
+                    <!-- <input type="text" placeholder="Tema"> -->
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send Message <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#start" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="nets">
+            <a href="https://twitter.com/ujjawal2108?t=nIuckxnJ1RBCbh0az7i55Q&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/ujjawal-chhajer-73611422b" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://instagram.com/ujjxwal_87?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
